@@ -1,2 +1,2 @@
 # fcc-drum-machine
-freecodecamp drum macine project
+freecodecamp drum machine project
