@@ -4,7 +4,8 @@
   "description": "freecodecamp drum machine project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,8 @@
     "babel-preset-react": "^6.24.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "webpack": "^4.16.1"
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
   },
   "dependencies": {
     "react-bootstrap": "^0.32.1"
