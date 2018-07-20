@@ -16,43 +16,43 @@ body {
   border: none;
   border-radius: 5px;
   height: 65vh;
-  width: 55vw;
-  padding: 30px;
+  width: 65vw;
   display: grid;
-  grid-template-columns: 40vw 15vw;
+  grid-template-columns: 65vw;
   justify-items: center;
   align-items: center;
+  padding: 0;
 }
 
 #keys-container {
   display: grid;
-  grid-template-columns: repeat(3, 9vw);  
-  grid-template-rows: repeat(3, 9vw);
+  grid-template-columns: repeat(3, 18vw);  
+  grid-template-rows: repeat(3, 18vw);
   justify-items: center;
   align-items: center;
 }
 
 #keys-container > button {
-  width: 7vw;
-  height: 7vw;
+  width: 17vw;
+  height: 17vw;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   background-color: #212121;
   color: white;
-  font-size: 2vw;
+  font-size: 5vw;
 }
 
 #display {
   background-color: #212121;
   color: #ffffff;
-  height: 7vw;
-  width: 15vw;
+  height: 15vw;
+  width: 51vw;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  font-size: 2.2vw;
+  font-size: 4.5vw;
 }
 
 .clip {
@@ -61,4 +61,32 @@ body {
 
 .hidden {
   display: none;
+}
+
+@media (min-width: 512px) {
+  #drum-machine {
+    height: 65vh;
+    width: 55vw;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 40vw 15vw;
+  }
+
+  #keys-container {
+    display: grid;
+    grid-template-columns: repeat(3, 9vw);
+    grid-template-rows: repeat(3, 9vw);
+  }
+
+  #keys-container > button {
+    width: 7vw;
+    height: 7vw;
+    font-size: 2vw;
+  }
+
+  #display {
+    font-size: 2.2vw;
+    height: 7vw;
+    width: 15vw;
+  }
 }
